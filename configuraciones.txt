@@ -1,0 +1,5 @@
+# Django Rest Framework Authentication  - Adam La Morre
+
+	pip install django==5
+
+Proyecto para probar autenticación en Django V5

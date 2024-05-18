@@ -1,0 +1,16 @@
+POST http://127.0.0.1:8500/login
+Content-Type: application/json
+
+{"username": "user6", "password": "12345"}
+
+###
+POST http://127.0.0.1:8500/signup
+Content-Type: application/json
+
+{"username": "user6", "password": "123245", "email": "user6@mail.com"}
+
+### 
+GET http://127.0.0.1:8500/test_token
+Content-Type: application/json
+
+{"username": "user2", "password": "12345", "email": "user2@mail.com"}
